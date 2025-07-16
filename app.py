@@ -64,7 +64,7 @@ app.resizable(False, False)
 # titulos 
 titulo_principal = ctk.CTkLabel(master=app, width=150, text='Curiosidades Numéricas', font=('System', 20, 'bold'))
 titulo_curiosidade = ctk.CTkLabel(master=app, width=150, text='', font=('System', 13, 'bold'))
-curiosidade_numero = ctk.CTkLabel(master=app, text='', font=('System', 9))
+curiosidade_numero = ctk.CTkLabel(master=app, width=150, text='', font=('System', 9))
 
 # pegando o valor e traduzindo a curiosidade
 valor_usuario = ctk.CTkEntry(master=app, width=40, text_color='black', placeholder_text='Valor', font=('System', 12), corner_radius=5, fg_color='white')
